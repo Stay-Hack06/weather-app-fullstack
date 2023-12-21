@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="./styles.css"  rel="stylesheet" />
+    <script  src="./scripts.js" defer></script>
+</head>
+<body>
+    <div class="header-container">
+        <h1>Local Weather Report</h1> 
+        <input type="text" name="location" placeholder="Enter City, State or zip" id="inputLocationBox">
+        <button id="searchButton" type="submit">Search</button>
+    </div>
+    
+    <div class="todays-weather-container hidden">
+        <div class="todays-weather">
+            <h2 id="todays-weather-header"></h2>
+            <div class="location-wrapper">
+                <p id="city"></p>
+                <p id="state"></p>
+                <p id="country"></p>
+            </div>
+            <div>
+                <div class="current-temp">
+                    <h1 id="current-temp"></h1>
+                </div>
+                <p id="high-temp"></p>
+                <p id="low-temp"></p>
+                <p id="chance-of-precipitation"></p>
+            </div>
+        </div>
+        <div class="temp-type-container">
+            <h3 id="temp-type"></h3>
+        </div>
+    </div>
+    <div class="forecast-header-container hidden">
+        <h2 id="three-day-forecast-header"></h2>
+    </div>
+    <div class="three-day-weather-info"></div> 
+    <div class="hottest-day-container hidden">
+        <h2 id="hottest-day-info"></h2>
+    </div>
+</body>
+</html>

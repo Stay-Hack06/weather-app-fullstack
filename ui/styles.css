@@ -1,0 +1,102 @@
+body {
+    background-image: radial-gradient(rgb(127, 255, 229),rgb(23, 148, 170));
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+#searchButton{
+    width: 100px;
+    margin-left: 10px;
+    padding: 2em;
+    border-radius: 80%;
+    border: 2px solid black;
+}
+
+#inputLocationBox {
+    width: 33.33%;
+    padding: 15px;
+    border: 2px solid black;
+}
+p {
+    font-style: oblique;
+}
+
+.header-container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.todays-weather-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+
+.location-wrapper {
+    display: flex;
+}
+
+.location-wrapper p {
+    display: flex;
+    margin: 2px;
+}
+
+.todays-weather {
+    flex: 0 0 auto;
+    border: 2px solid black;
+    padding: 2em;
+    width: 35%;
+}
+
+#temp-type {
+    border: 2px solid black;
+    text-align: center;
+    padding: 2em;
+}
+
+.forecast-box {
+    border: 2px solid black;
+    padding: 2em;
+}
+
+.forecast-header-container {
+    display: flex;
+}
+
+#three-day-forecast-header {
+    margin: 3em auto;
+}
+
+.three-day-weather-info {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+
+.hottest-day-container {
+    display: flex;
+    justify-content: center;
+}   
+
+#hottest-day-info {
+    display: flex;
+    border: 2px solid black;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 1em;
+}
+.hidden {
+    display: none;
+}
